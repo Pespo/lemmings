@@ -33,9 +33,9 @@ link_libraries(
 )
 
 file(
-    GLOB_RECURSE
+    GLOB
     source_files
-    ../*
+    ${CMAKE_CURRENT_LIST_DIR}/../*.c
 )
 
 add_executable(
